@@ -139,7 +139,6 @@ export default function ProductCard({ productdetails })
         <Link 
             to={`/shop/${_id}`}  
             onClick={() => localStorage.setItem(`${_id}`, JSON.stringify(productdetails))}
-            target="_blank"
             rel="noopener noreferrer"
         >
             <div className="card-basic">
